@@ -1,10 +1,10 @@
-//const heading = React.createElement("h1", { id:"heading" } , "Hello World from React!!");
-
-const root = ReactDOM.createRoot(document.getElementById("root"));
-
-
-const parent = React.createElement("div", { id:"parent"},
-               React.createElement("div", { id:"child"} ,
-               [React.createElement("h1", { id:"heading"} , "I am an h1 tag"),
-               React.createElement("h2", { id:"heading"} , "I am an h2 tag")]));
-root.render(parent);
+import React from "react";
+import ReactDOM from "react-dom/client";
+//React.createElement => ReactElement => JS Object => HTMLElement(render)
+// const heading = React.createElement("h1", "heading", "Namaste React");
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(heading);
+//JSX => React.createElement => ReactElement => JS Object => HTMLElement(render)
+//JSX uses parcel which internally uses Babel for converting JSX to react
+const jsxHeading = <h1 id="jsxHeading">"Namaste React using JSX"</h1>
+root.render(jsxHeading)

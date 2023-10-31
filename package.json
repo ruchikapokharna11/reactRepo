@@ -1,0 +1,36 @@
+{
+  "name": "reactrepo",
+  "version": "1.0.0",
+  "description": "First react project - Namaste React",
+  "main": "App.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "prodStart" : "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruchikapokharna11/reactRepo.git"
+  },
+  "keywords": [
+    "react",
+    "ruchi"
+  ],
+  "author": "Ruchika Pokharna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ruchikapokharna11/reactRepo/issues"
+  },
+  "homepage": "https://github.com/ruchikapokharna11/reactRepo#readme",
+  "devDependencies": {
+    "parcel": "^2.10.1",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist": [ 
+    "last 2 chrome version"
+  ]
+}
